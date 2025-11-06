@@ -19,10 +19,10 @@ except Exception:
 # -------------------------
 # Configuration (tuneable)
 # -------------------------
-MU_ALPHA = 0.033
+MU_ALPHA = 0.040
 VAR_BETA = 0.011
 VAR_FLOOR = 1e-6
-PRICE_BUFFER_SIZE = 90
+PRICE_BUFFER_SIZE = 80
 REBALANCE_EVERY = 5
 SMOOTHING_GAMMA = 0.25
 MIN_POS_DOLLARS = 1.0
